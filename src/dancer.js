@@ -29,6 +29,6 @@ Dancer.prototype.lineUp = function (spot) {
   spotWidth = spotWidth + 'px';
   midpoint = midpoint + 'px';
   this.$node.css('top', midpoint);
-  this.$node.css('left', spotWidth);
+  this.$node.css('left', spotWidth);  
   
 };
